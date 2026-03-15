@@ -1,6 +1,7 @@
 # roblox-executor-base
 roblox executor base that will (i hope) get updated each 2 week/one month
 - Current Version : ``2.710.707`` (android)
+- Status : ``Not tested (should work)``
 
 # Warning
 > this is the most basic executor you could find in the whole internet, don't expect this to be insane, i intentionally made it like that.
