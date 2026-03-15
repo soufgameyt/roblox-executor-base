@@ -19,7 +19,7 @@ namespace roblox::functions {
     auto init( ) -> void;
 
     inline lua_State* (*rgetglobalstate)(void* scriptcontext, std::uint64_t identity, std::uint64_t script);
-    inline lua_State* (*rgetcontext)(void* encryptedcontext);
+    inline void* (*rgetcontext)(void* encryptedcontext);
     inline lua_State* (*rlua_newthread)(lua_State *L);
     inline int (*rlua_pcall)(lua_State *L, int nargs, int nresults, int errfunc);
     inline int (*rluau_load)(lua_State *L, const char *chunkname, const char *data, size_t size, int env);
